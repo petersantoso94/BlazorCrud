@@ -1,0 +1,9 @@
+C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.Models\bin\Debug\netstandard2.0\BlazorServerCRUD.Models.deps.json
+C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.Models\bin\Debug\netstandard2.0\BlazorServerCRUD.Models.dll
+C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.Models\bin\Debug\netstandard2.0\BlazorServerCRUD.Models.pdb
+C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.Models\obj\Debug\netstandard2.0\BlazorServerCRUD.Models.csprojAssemblyReference.cache
+C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.Models\obj\Debug\netstandard2.0\BlazorServerCRUD.Models.AssemblyInfoInputs.cache
+C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.Models\obj\Debug\netstandard2.0\BlazorServerCRUD.Models.AssemblyInfo.cs
+C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.Models\obj\Debug\netstandard2.0\BlazorServerCRUD.Models.csproj.CoreCompileInputs.cache
+C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.Models\obj\Debug\netstandard2.0\BlazorServerCRUD.Models.dll
+C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.Models\obj\Debug\netstandard2.0\BlazorServerCRUD.Models.pdb
