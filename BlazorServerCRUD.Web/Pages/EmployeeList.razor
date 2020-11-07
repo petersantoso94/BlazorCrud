@@ -1,0 +1,34 @@
+﻿@page "/"
+@inject Interfaces.IEmployeeService Service
+<h3>EmployeeList</h3>
+@if (employees != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Gender</th>
+                <th>Department</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in employees)
+            {
+                <tr>
+                    <th>@item.EmployeeId</th>
+                    <td>@item.Gender</td>
+                    <td>@item.Department.DepartmentName</td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+}
+
+@code {
+    private IEnumerable<Models.Employee> employees;
+    protected override async Task OnInitializedAsync()
+    {
+        employees = await Service.GetEmployees();
+    }
+}

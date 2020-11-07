@@ -5,9 +5,6 @@ C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.web\obj\Debug\netcoreapp
 C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.web\obj\Debug\netcoreapp3.1\BlazorServerCRUD.web.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.web\obj\Debug\netcoreapp3.1\BlazorServerCRUD.web.RazorComponent.input.cache
 C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.web\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
-C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
-C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.web\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
 C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.web\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
 C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.web\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
@@ -17,9 +14,6 @@ C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.web\obj\Debug\netcoreapp
 C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.web\obj\Debug\netcoreapp3.1\BlazorServerCRUD.web.TagHelpers.output.cache
 C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.web\obj\Debug\netcoreapp3.1\BlazorServerCRUD.web.RazorCoreGenerate.cache
 C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.web\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
-C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.web\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
-C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.web\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
-C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.web\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
 C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.web\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.web\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
 C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.web\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
@@ -50,3 +44,7 @@ C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.Web\obj\Debug\netcoreapp
 C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.Web\obj\Debug\netcoreapp3.1\BlazorServerCRUD.Web.csproj.CopyComplete
 C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.Web\bin\Debug\netcoreapp3.1\BlazorServerCRUD.Models.dll
 C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.Web\bin\Debug\netcoreapp3.1\BlazorServerCRUD.Models.pdb
+C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.Web\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\EmployeeList.razor.g.cs
+C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.Web\obj\Debug\netcoreapp3.1\Razor\Pages\EmployeeList.razor.g.cs
+C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.Web\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Blazor.HttpClient.dll
+C:\Users\Peter\dotnet\BlazorServerCRUD\BlazorServerCRUD.Web\bin\Debug\netcoreapp3.1\System.Text.Json.dll

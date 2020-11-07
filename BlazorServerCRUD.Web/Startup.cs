@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BlazorServerCRUD.Web.Interfaces;
+using BlazorServerCRUD.Web.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Hosting;
@@ -9,7 +11,6 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using BlazorServerCRUD.Web.Data;
 
 namespace BlazorServerCRUD.Web
 {
@@ -28,7 +29,9 @@ namespace BlazorServerCRUD.Web
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<WeatherForecastService>();
+            services.AddHttpClient<IEmployeeService, EmployeeService>(configureClient =>
+                 configureClient.BaseAddress = new Uri("http://localhost:5000")
+            );
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

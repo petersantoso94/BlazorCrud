@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BlazorServerCRUD.Api.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20201105154001_InitialDbMigration")]
+    [Migration("20201107023938_InitialDbMigration")]
     partial class InitialDbMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -62,6 +62,8 @@ namespace BlazorServerCRUD.Api.Migrations
 
                     b.HasKey("EmployeeId");
 
+                    b.HasIndex("DepartmentId");
+
                     b.ToTable("Employees");
 
                     b.HasData(
@@ -77,6 +79,15 @@ namespace BlazorServerCRUD.Api.Migrations
                             DepartmentId = 2,
                             Gender = 1
                         });
+                });
+
+            modelBuilder.Entity("BlazorServerCRUD.Models.Employee", b =>
+                {
+                    b.HasOne("BlazorServerCRUD.Models.Department", "Department")
+                        .WithMany()
+                        .HasForeignKey("DepartmentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

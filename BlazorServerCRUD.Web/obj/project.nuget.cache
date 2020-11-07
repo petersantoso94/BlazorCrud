@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "fAayHHayX0d92uwWQ2b9M0fcvB4cAfiB7GznWSaz0wXufFJhdKMA5DqNGAg/dAMup6sEEEBelCCEJ3E1Gvs9Mg==",
+  "dgSpecHash": "NQQhXKoUjnhasClIP7zyi9LQvW9aLX/aAchnkw7UIOak07g4BFxgzN12qq0o0FO6LP1xrllxfHBi+rhkOxA6Og==",
   "success": true,
   "projectFilePath": "C:\\Users\\Peter\\dotnet\\BlazorServerCRUD\\BlazorServerCRUD.Web\\BlazorServerCRUD.Web.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Peter\\.nuget\\packages\\microsoft.aspnetcore.blazor.httpclient\\3.2.0-preview3.20168.3\\microsoft.aspnetcore.blazor.httpclient.3.2.0-preview3.20168.3.nupkg.sha512",
+    "C:\\Users\\Peter\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
+  ],
   "logs": []
 }

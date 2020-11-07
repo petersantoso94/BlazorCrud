@@ -17,11 +17,13 @@ namespace BlazorServerCRUD.Api.Models
         {
             // Department
             base.OnModelCreating(modelBuilder);
+            var hrDepartment = new Department { DepartmentId = 2, DepartmentName = "HR" };
+            var adminDepartment = new Department { DepartmentId = 1, DepartmentName = "Admin" };
             modelBuilder.Entity<Department>().HasData(
-                new Department { DepartmentId = 1, DepartmentName = "Admin" }
+                adminDepartment
             );
             modelBuilder.Entity<Department>().HasData(
-                new Department { DepartmentId = 2, DepartmentName = "HR" }
+                hrDepartment
             );
 
             // Employee
