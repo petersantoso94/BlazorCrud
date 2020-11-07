@@ -28,10 +28,10 @@ namespace BlazorServerCRUD.Api.Models
 
             // Employee
             modelBuilder.Entity<Employee>().HasData(
-                new Employee { DepartmentId = 1, EmployeeId = 1, Gender = Gender.Male }
+                new Employee { DepartmentId = 1, EmployeeId = 1, EmployeeName = "John", Gender = Gender.Male }
             );
             modelBuilder.Entity<Employee>().HasData(
-                new Employee { DepartmentId = 2, EmployeeId = 2, Gender = Gender.Female }
+                new Employee { DepartmentId = 2, EmployeeId = 2, EmployeeName = "Lisa", Gender = Gender.Female }
             );
         }
     }
