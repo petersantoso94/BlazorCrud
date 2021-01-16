@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BlazorServerCRUD.Models;
 using BlazorServerCRUD.Web.Interfaces;
 using BlazorServerCRUD.Web.Services;
 using Microsoft.AspNetCore.Builder;
@@ -27,10 +28,14 @@ namespace BlazorServerCRUD.Web
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            var config = Configuration.GetSection("Api").Get<ApiConfigDTO>();
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddHttpClient<IEmployeeService, EmployeeService>(configureClient =>
-                 configureClient.BaseAddress = new Uri("http://localhost:5000")
+            services.AddSingleton<IConfiguration>(ChainedConfigurationProvider => Configuration);
+            services.AddSingleton<IEmployeeService, EmployeeService>();
+            services.AddSingleton<IRandomNumberService, RandomNumberService>();
+            services.AddHttpClient("apiClient", configureClient =>
+                  configureClient.BaseAddress = new Uri(config.Url)
             );
         }
 

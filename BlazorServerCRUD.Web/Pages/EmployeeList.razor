@@ -1,5 +1,6 @@
 ﻿@page "/"
 @inject Interfaces.IEmployeeService Service
+@inject Interfaces.IRandomNumberService RandomNumberService
 <h3>EmployeeList</h3>
 @if (employees != null)
 {
@@ -26,11 +27,32 @@
 
     </table>
 }
+@if (randomNumber != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in randomNumber)
+            {
+                <tr>
+                    <th>@item</th>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+}
 
 @code {
     private IEnumerable<Models.Employee> employees;
+    private List<string> randomNumber;
     protected override async Task OnInitializedAsync()
     {
         employees = await Service.GetEmployees();
+        randomNumber = RandomNumberService.GetRandomNumber();
     }
 }

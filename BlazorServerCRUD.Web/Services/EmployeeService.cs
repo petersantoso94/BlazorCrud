@@ -10,14 +10,15 @@ namespace BlazorServerCRUD.Web.Services
 {
     public class EmployeeService : IEmployeeService
     {
-        private readonly HttpClient _httpClient;
-        public EmployeeService(HttpClient httpClient)
+        private readonly HttpClient _apiClient;
+        public EmployeeService(IHttpClientFactory httpClientFactory)
         {
-            _httpClient = httpClient ?? throw new ArgumentNullException(nameof(httpClient));
+            var factory = httpClientFactory ?? throw new ArgumentNullException(nameof(httpClientFactory));
+            _apiClient = factory.CreateClient("apiClient");
         }
         public async Task<IEnumerable<Employee>> GetEmployees()
         {
-            return await _httpClient.GetJsonAsync<Employee[]>("api/employee");
+            return await _apiClient.GetJsonAsync<Employee[]>("api/employee");
         }
     }
 }
