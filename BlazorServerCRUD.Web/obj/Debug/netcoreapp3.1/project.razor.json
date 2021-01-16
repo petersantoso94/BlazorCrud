@@ -12,35 +12,55 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -2037570753,
+        "HashCode": -1251354366,
         "Kind": "Components.Component",
-        "Name": "BlazorServerCRUD.Web.App",
+        "Name": "BlazorServerCRUD.Web.Shared.SurveyPrompt",
         "AssemblyName": "BlazorServerCRUD.Web",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorServerCRUD.Web.App"
+          "Common.TypeName": "BlazorServerCRUD.Web.Shared.SurveyPrompt"
         }
       },
       {
-        "HashCode": 461500623,
+        "HashCode": 1891438126,
         "Kind": "Components.Component",
-        "Name": "BlazorServerCRUD.Web.App",
+        "Name": "BlazorServerCRUD.Web.Shared.SurveyPrompt",
         "AssemblyName": "BlazorServerCRUD.Web",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorServerCRUD.Web.App"
+            "TagName": "BlazorServerCRUD.Web.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorServerCRUD.Web.App",
+          "Common.TypeName": "BlazorServerCRUD.Web.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -174,59 +194,6 @@
         }
       },
       {
-        "HashCode": -1251354366,
-        "Kind": "Components.Component",
-        "Name": "BlazorServerCRUD.Web.Shared.SurveyPrompt",
-        "AssemblyName": "BlazorServerCRUD.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorServerCRUD.Web.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": 1891438126,
-        "Kind": "Components.Component",
-        "Name": "BlazorServerCRUD.Web.Shared.SurveyPrompt",
-        "AssemblyName": "BlazorServerCRUD.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorServerCRUD.Web.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorServerCRUD.Web.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1141251793,
         "Kind": "Components.Component",
         "Name": "BlazorServerCRUD.Web.Pages.EmployeeList",
@@ -256,6 +223,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorServerCRUD.Web.Pages.EmployeeList",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -2037570753,
+        "Kind": "Components.Component",
+        "Name": "BlazorServerCRUD.Web.App",
+        "AssemblyName": "BlazorServerCRUD.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorServerCRUD.Web.App"
+        }
+      },
+      {
+        "HashCode": 461500623,
+        "Kind": "Components.Component",
+        "Name": "BlazorServerCRUD.Web.App",
+        "AssemblyName": "BlazorServerCRUD.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorServerCRUD.Web.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorServerCRUD.Web.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
